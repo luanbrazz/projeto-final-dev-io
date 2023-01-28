@@ -7,6 +7,8 @@ import { HomeComponent } from "./home/home.component";
 import { FooterComponent } from "./footer/footer.component";
 import { NotFoundComponent } from "./not-found/not-found.component";
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     MenuComponent,
@@ -18,6 +20,7 @@ import { NotFoundComponent } from "./not-found/not-found.component";
   imports: [
     CommonModule,
     RouterModule,
+    NgbModule
   ],
 
   exports: [
